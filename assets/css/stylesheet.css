@@ -1,0 +1,90 @@
+a, h1, .tlt {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ hr .line { 
+width: 50%;
+height: 8px;
+color: black;
+border-top: 50px;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.band-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+.albums{
+  height:500px;
+  width:100%;
+}
+
+.PJ-section{
+   height: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+#Smash {
+	height: 100%;
+}
+
+.SP-Albums {
+  margin-bottom: 20px;
+}
+
+.SP-gallery {
+  margin-top: 50px;
+  margin-bottom: 300px;
+}
+
+.Bio1 {
+  color: #000000;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.Bio2 {
+  color: #000000;
+  margin-bottom: 50px;
+/*  margin-right: 300px;*/
+  text-align: left;
+}
+/*
+.Bio3 {
+  color: #000000;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  text-align: right;
+
+}*/
+
+/*.SP-bio{
+  width: 50%;
+  height:auto;
+
+}*/
+
+.gallery {
+  margin-bottom: 100px;
+  height:100%;
+}
+
+.video-container {
+    margin: 10px;
+}
+
+.sort{
+  margin-left:20px;
+}

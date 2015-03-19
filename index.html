@@ -1,0 +1,1097 @@
+<html>
+	<head>
+			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+			   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			 <script src="assets/js/jquery.min.js"></script>
+
+			<script src="assets/js/jquery.mine.js"></script>
+			<script src="assets/js/jquery-1.11.2.js"></script>
+
+			<link rel="stylesheet" href="assets/css/flickity.css" media="screen">
+			<script src="assets/js/flickity.pkgd.min.js"></script>
+			
+			<!-- main font -->
+			<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
+
+			  
+			
+			<!-- textillate -->
+			<script src="assets/js/jquery.lettering.js"></script>  
+			<script src="assets/js/jquery.textillate.js"></script>
+
+
+			<!-- interactiveBG -->
+			<script src="assets/js/jquery.interactive_bg.js"></script>
+			<link href="assets/css/stylesheet.css" rel="stylesheet">
+
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+			<!-- scrolling nav example -->
+			<script src="assets/js/jquery.easing.min.js"></script>
+			<script src="assets/js/scrolling-nav.js"></script>
+				<!-- scrolling nav animation -->
+			<link href="assets/css/animate.css" rel="stylesheet"> 
+
+
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+			<!-- jplayer lg -->
+
+			<link href="assets/css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+			<script type="text/javascript" src="assets/js/jquery.jplayer.min.js"></script>
+			<script type="text/javascript" src="assets/js/jplayer.playlist.min.js"></script>
+
+			<!-- jplayer sm -->
+
+			<link rel="stylesheet" href="assets/css/circle.player.css">
+
+			<script type="text/javascript" src="assets/js/jquery.transform2d.js"></script>
+			<script type="text/javascript" src="assets/js/jquery.grab.js"></script>
+			<script type="text/javascript" src="assets/js/mod.csstransforms.min.js"></script>
+			<script type="text/javascript" src="assets/js/circle.player.js"></script>
+	</head>
+
+	<body>
+		<!-- intro -->
+		<div class="container">
+
+			<section id="intro" class="intro-section">
+				<h1 class="tlt">Taste in Music</h1>
+				
+				<hr class="line"/>
+  				
+				 <a class="page-scroll" href="#Pumpkins">
+				 <img src="assets/img/logo.png" height="auto" width="500px" class="swap-me">
+				</a>
+			 </section>
+		</div>
+
+ <!-- albums -->
+	<section id="Pumpkins" class="band-section">
+		
+			<div class="row">
+
+				<!-- smashing pumpkins -->
+
+				<div class=" hidden-sm hidden-xs col-md-3 col-lg-3">
+	
+				<img  src="assets/img/BeforeSP.png" width="300px" height="auto" id="info" class="img-swap" />
+				
+				</div>
+
+				<!-- Pearl Jam Large Artwork -->
+
+				<div class=" hidden-sm hidden-xs col-md-3 col-lg-3">
+
+				<img src="assets/img/BeforePJ.png" width="300px" height="auto" id="info-PJ" class="PJ-swap" />
+			
+				</div>
+
+				<!-- Red Hot Large Artwork -->
+
+				<div class=" hidden-sm hidden-xs col-md-3 col-lg-3">
+				
+				<img src="assets/img/BeforeRHCP.png" width="300px" height="auto" id="info-RHCP" class="RHCP-swap" />
+			
+				</div>
+
+				<!-- SNP Large Artwork -->
+
+				<div class=" hidden-sm hidden-xs col-md-3 col-lg-3">
+				
+				<img src="assets/img/BeforeSNP.png" width="300px" height="auto" id="info-SNP" class="SNP-swap" />
+			
+				</div>
+			
+			
+		</div>
+
+	<!-- smaller Section SP-->
+
+	<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+				<img src="assets/img/BeforeSP.png" width="auto" height="400px" id="infoSm" class="img-swapSm" />
+				</div>
+
+	<div class="container row-center" id="SmashSm">
+		<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+
+
+						<!-- http://aduphoto.com/smashing-pumpkins-hd-pictures-4-hd-wallpaper.html -->
+		
+										<div class="bg demo1 hidden-lg hidden-md  col-sm-12 col-xs-12" data-ibg-bg="assets/img/smBG.jpg" style="height:500px; width: 100%; overflow: hidden;">
+
+										</div>
+								
+									<h3>Smashing Pumpkins</h3>
+
+	<!-- player for smaller -->
+						<div class="container row-center hidden-lg hidden-md  col-sm-12 col-xs-12">
+
+										<!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+							<div id="jquery_jplayer_1" class="cp-jplayer"></div>
+
+							<!-- The container for the interface can go where you want to display it. Show and hide it as you need. -->
+
+							<div id="cp_container_1" class="cp-container">
+								<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+									<div class="cp-buffer-1"></div>
+									<div class="cp-buffer-2"></div>
+								</div>
+								<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+									<div class="cp-progress-1"></div>
+									<div class="cp-progress-2"></div>
+								</div>
+								<div class="cp-circle-control"></div>
+								<ul class="cp-controls">
+									<li><a class="cp-play" tabindex="1">play</a></li>
+									<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+								</ul>
+							</div>
+							
+
+							</div>	
+
+	<!-- smaller -->
+
+									<div class="SP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Arriving on the national scene a couple years after Nirvana and Pearl Jam, the Smashing Pumpkins made music that was bigger, shinier and more stuffed with sounds than most alt-rock competitors. Their dense, layered sound and dynamic songwriting, alternately angst-ridden and dreamy, made the Pumpkins a chart-topping success in the Nineties.
+										Pumpkins leader Billy Corgan grew up in a Chicago suburb with his guitarist father and moved to Florida at age 19 as leader of goth band, the Marked. Returning home, he worked in a record store and formed Smashing Pumpkins with guitarist James Iha, focusing on Cure-inspired mope-rock. Soon, the duo added bassist D'arcy Wretzky and drummer Jimmy Chamberlin and mostly on the strength of Chamberlin's dexterity and bombastic style explored heavier material.
+										The band's first single, "I Am One," on Chicago imprint Limited Potential led to a deal with indie super-label Sub Pop, who had launched Nirvana and Soundgarden. In 1991, the band's debut album, Gish, produced by Butch Vig (Nirvana's Nevermind), became a college-radio favorite and eventually went gold in 1994. The 1993 major-label follow-up, Siamese Dream, fared even better, debuting at Number Ten and ultimately selling more that 4 million copies, largely on the strength of "Today" which peaked at Number Four on the Alt-Rock chart, making the group alternative-rock stars.
+
+									</p>
+									</div>
+									<div class="SP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Emphasizing both the virtuosic interplay of Corgan and Jimmy Chamberlin and Corgan's confessional lyrics, the Pumpkins employed a Mellotron, strings, and multiple guitar parts on Siamese Dreams, as they continued to edge closer to progressive rock than to punk or grunge.
+										Corgan indulged his prog-rock jones full-on with 1995's Mellon Collie and the Infinite Sadness (Number One, 1995), a double-disc set that proved enormously successful, selling over 9 million copies and launching four singles onto the pop chart, including "Bullet With Butterfly Wings" (Number 22, 1995), "1979" (Number 12, 1996), and "Tonight, Tonight" (Number 36, 1996).
+										During a 1996 summer tour, Chamberlin and touring keyboardist Jonathan Melvoin both overdosed on heroin at the same time. Melvoin died and Chamberlin was arrested and subsequently fired. Filter's Matt Walker filled his seat for the remainder of the tour, but the band's quietly intimate next album, Adore (Number Two, 1998), was recorded using session percussionists and drum machines. When Adore stalled at platinum and failed to produce to a single that charted higher than Number 42 ("Ave Adore," 1998) it was considered a commercial failure compared the band's previous sales.
+
+									</p>
+									</div>
+
+									<div class="SP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										As the Pumpkins finished their tour commitments through the end of 2000, Corgan revealed plans for one final album of unreleased material from the band. He also hinted at a solo career, an avenue James Iha had already tested via Let It Come Down (Number 64), his 1998 album of singer/songwriter-style love songs. The Smashing Pumpkins officially broke up on December 2, 2000, following a four-hour show at Chicago's Cabaret Metro, where the band had debuted in October 1988. In early 2001, the album Machina/Friends and Enemies of Modern Music became available on the band's official Web site.
+										Corgan and Chamberlin reunited in 2001 to form the short lived Zwan, which recorded one album, 2002's Mary Star of the Sea. Though the record debuted at Number Three, it quickly fell off the charts and didn't nearly as well as any Smashing Pumpkins album. A Corgan solo album, 2005's TheFutureEmbrace also sold poorly.
+										Days after TheFutureEmbrace came out, Billy Corgan announced his commitment to reviving the Smashing Pumpkins through a full-page ad he placed in the Chicago Tribune. "For a year now," the ad read, "I have walked around with a secret, a secret I chose to keep. But now I want you to be among the first to know that I have made plans to renew and revive the Smashing Pumpkins. I want my band back, and my songs, and my dreams."
+										In May 2007, the "reunited" lineup debuted, with Corgan and Chamberlin augmented by guitarist and bassist Jeff Schroder and Ginger Reyes respectively (Corgan said Iha and Wretzky had decline the opportunity to reunite). Later that month they released new single "Tarantula," and in July, the new album Zietgiest. The hard-rocking collection debuted at Number Two, selling 145,000 copies its first week and ultimately selling over 500,000 copies. Since then, the band has released sporadic single and Corgan had said the band will not likely release any further full-length albums.
+
+									</p>
+									</div>
+
+									<!-- smaller flickity -->
+
+					<div class="gallery js-flickity hidden-lg hidden-md  col-sm-12 col-xs-12">
+							
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/UdFDs_aEoJw?rel=0" frameborder="0" allowfullscreen ></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/W60uBz0ZtYw" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/nqu2TX6kqpc" frameborder="0" allowfullscreen></iframe>										
+				</div>
+			
+
+		<!-- notable albums -->
+						<!-- images from http://www.stereogum.com/1541432/smashing-pumpkins-albums-from-worst-to-best/franchises/counting-down/ -->
+						<div class="SP-gallery">
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/MellonCollie.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/GISH.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/siamesedream.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/zeitgeist.jpg" />
+							</div>
+
+						</div>
+
+				</div> 
+	
+		</div>
+	</div>
+
+	<!-- finish SP Small -->
+
+	<!-- larger SP -->
+
+				<div class="container row-center" id="Smash">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+								<!-- interactive BG -->
+								<div class="container-center">
+
+						<!-- http://pagesay.com/perfect-the-best-of-smashing-pumpkins/ -->
+										<div class="bg demo1 visible-lg visible-md col-lg-12 col-md-12" data-ibg-bg="assets/img/bg.jpg" style="height:600px; width: 100%; overflow: hidden; margin-top: 50px; margin-bottom: 50px;">
+										</div>
+								</div>
+
+
+	<!-- this -->
+
+	<h3 class="hidden-xs hidden-sm">Smashing Pumpkins</h3>
+
+
+
+	<!-- player for larger  -->
+					<div class="container visible-lg visible-md col-lg-12 col-md-12" height="100%">
+									<!-- [jPlayer](http://jplayer.org/) : HTML5 Audio & Video for [jQuery](http://jquery.com/) -->
+							<div id="jquery_jplayer_lg" class="jp-jplayer"></div>
+								<div id="jquery_jplayer_lg" class="jp-jplayer"></div>
+								<div id="jp_container_lg" class="jp-audio" role="application" aria-label="media player">
+									<div class="jp-type-playlist">
+										
+										<div class="jp-playlist">
+											<ul>
+												<li>&nbsp;</li>
+											</ul>
+										</div>
+										<div class="jp-no-solution">
+											<span>Update Required</span>
+											To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+
+	<!-- larger -->
+
+	<!--  http://www.rollingstone.com/music/artists/smashing-pumpkins/biography#ixzz3Up6WJidq  -->
+									<div class="SP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Arriving on the national scene a couple years after Nirvana and Pearl Jam, the Smashing Pumpkins made music that was bigger, shinier and more stuffed with sounds than most alt-rock competitors. Their dense, layered sound and dynamic songwriting, alternately angst-ridden and dreamy, made the Pumpkins a chart-topping success in the Nineties.
+										Pumpkins leader Billy Corgan grew up in a Chicago suburb with his guitarist father and moved to Florida at age 19 as leader of goth band, the Marked. Returning home, he worked in a record store and formed Smashing Pumpkins with guitarist James Iha, focusing on Cure-inspired mope-rock. Soon, the duo added bassist D'arcy Wretzky and drummer Jimmy Chamberlin and mostly on the strength of Chamberlin's dexterity and bombastic style explored heavier material.
+										The band's first single, "I Am One," on Chicago imprint Limited Potential led to a deal with indie super-label Sub Pop, who had launched Nirvana and Soundgarden. In 1991, the band's debut album, Gish, produced by Butch Vig (Nirvana's Nevermind), became a college-radio favorite and eventually went gold in 1994. The 1993 major-label follow-up, Siamese Dream, fared even better, debuting at Number Ten and ultimately selling more that 4 million copies, largely on the strength of "Today" which peaked at Number Four on the Alt-Rock chart, making the group alternative-rock stars.
+
+									</p>
+									</div>
+									<div class="SP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Emphasizing both the virtuosic interplay of Corgan and Jimmy Chamberlin and Corgan's confessional lyrics, the Pumpkins employed a Mellotron, strings, and multiple guitar parts on Siamese Dreams, as they continued to edge closer to progressive rock than to punk or grunge.
+										Corgan indulged his prog-rock jones full-on with 1995's Mellon Collie and the Infinite Sadness (Number One, 1995), a double-disc set that proved enormously successful, selling over 9 million copies and launching four singles onto the pop chart, including "Bullet With Butterfly Wings" (Number 22, 1995), "1979" (Number 12, 1996), and "Tonight, Tonight" (Number 36, 1996).
+										During a 1996 summer tour, Chamberlin and touring keyboardist Jonathan Melvoin both overdosed on heroin at the same time. Melvoin died and Chamberlin was arrested and subsequently fired. Filter's Matt Walker filled his seat for the remainder of the tour, but the band's quietly intimate next album, Adore (Number Two, 1998), was recorded using session percussionists and drum machines. When Adore stalled at platinum and failed to produce to a single that charted higher than Number 42 ("Ave Adore," 1998) it was considered a commercial failure compared the band's previous sales.
+
+									</p>
+									</div>
+
+									<div class="SP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										As the Pumpkins finished their tour commitments through the end of 2000, Corgan revealed plans for one final album of unreleased material from the band. He also hinted at a solo career, an avenue James Iha had already tested via Let It Come Down (Number 64), his 1998 album of singer/songwriter-style love songs. The Smashing Pumpkins officially broke up on December 2, 2000, following a four-hour show at Chicago's Cabaret Metro, where the band had debuted in October 1988. In early 2001, the album Machina/Friends and Enemies of Modern Music became available on the band's official Web site.
+										Corgan and Chamberlin reunited in 2001 to form the short lived Zwan, which recorded one album, 2002's Mary Star of the Sea. Though the record debuted at Number Three, it quickly fell off the charts and didn't nearly as well as any Smashing Pumpkins album. A Corgan solo album, 2005's TheFutureEmbrace also sold poorly.
+										Days after TheFutureEmbrace came out, Billy Corgan announced his commitment to reviving the Smashing Pumpkins through a full-page ad he placed in the Chicago Tribune. "For a year now," the ad read, "I have walked around with a secret, a secret I chose to keep. But now I want you to be among the first to know that I have made plans to renew and revive the Smashing Pumpkins. I want my band back, and my songs, and my dreams."
+										In May 2007, the "reunited" lineup debuted, with Corgan and Chamberlin augmented by guitarist and bassist Jeff Schroder and Ginger Reyes respectively (Corgan said Iha and Wretzky had decline the opportunity to reunite). Later that month they released new single "Tarantula," and in July, the new album Zietgiest. The hard-rocking collection debuted at Number Two, selling 145,000 copies its first week and ultimately selling over 500,000 copies. Since then, the band has released sporadic single and Corgan had said the band will not likely release any further full-length albums.
+
+									</p>
+									</div>
+
+
+
+					
+
+	<!-- larger flickity -->
+	  			<div class="gallery js-flickity visible-lg visible-md col-lg-12 col-md-12">
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/UdFDs_aEoJw" frameborder="0" allowfullscreen></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/W60uBz0ZtYw" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/UdFDs_aEoJw?rel=0" frameborder="0" allowfullscreen></iframe>
+						</div>											
+				</div>
+			
+				
+
+						<!-- notable albums -->
+						<!-- images from http://www.stereogum.com/1541432/smashing-pumpkins-albums-from-worst-to-best/franchises/counting-down/ -->
+						<div class="SP-gallery">
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/MellonCollie.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/GISH.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/siamesedream.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/zeitgeist.jpg" />
+							</div>
+
+						</div>
+						</div>	
+					</div>
+				<!-- </div> -->
+	
+
+	<!-- larger PJ -->
+
+				<div class="container row-center" id="PJlg">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+								<!-- interactive BG -->
+								<div class="container-center">
+
+						<!-- http://hdwallpapersbase.com/wp-content/uploads/2013/06/Pearl_Jam_HD_wallpaper.jpg -->
+										<div class="bg demo1 visible-lg visible-md col-lg-12 col-md-12" data-ibg-bg="assets/img/PJlgBG.jpg" style="height:600px; width: 100%; overflow: hidden; margin-top: 50px; margin-bottom: 50px;">
+										</div>
+								</div>
+
+
+	<!-- this -->
+
+	<h3 class="hidden-xs hidden-sm">Pearl Jam</h3>
+
+
+
+	<!-- player for larger  -->
+					<div class="container visible-lg visible-md col-lg-12 col-md-12" height="100%">
+									<!-- [jPlayer](http://jplayer.org/) : HTML5 Audio & Video for [jQuery](http://jquery.com/) -->
+							<div id="jquery_jplayer_pjlg" class="jp-jplayer"></div>
+								<div id="jquery_jplayer_pjlg" class="jp-jplayer"></div>
+								<div id="jp_container_pjlg" class="jp-audio" role="application" aria-label="media player">
+									<div class="jp-type-playlist">
+										
+										<div class="jp-playlist">
+											<ul>
+												<li>&nbsp;</li>
+											</ul>
+										</div>
+										<div class="jp-no-solution">
+											<span>Update Required</span>
+											To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+										</div>
+									</div>
+								</div>
+						</div>
+
+	<!-- larger -->
+
+	<!-- http://www.rollingstone.com/music/artists/pearl-jam/biography -->
+									<div class="PJ-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Along with Nirvana, Pearl Jam were initially known for popularizing grunge, the Seattle sound that exploded nationwide in the early Nineties. But the band became an American rock institution by broadening their heavy, Led Zeppelin-influenced sound while maintaining the emotional depth that made their songs so resonant in the first place. Leaping from obscurity to superstardom, the band sold more than 15 million copies of its first two albums, and after a couple of years during which they got mired in high-profile controversies, Pearl Jam recovered and were still filling arenas at the close of the 2000s.
+										Pearl Jam's roots in the Seattle scene go deep: In the mid-Eighties, Jeff Ament and Stone Gossard were members of the seminal Seattle band Green River, which split in 1987. Half the band formed Mudhoney, while Gossard and Ament joined singer Andrew Wood in Mother Love Bone. One of the earliest Seattle bands to sign with a major label, Mother Love Bone seemed on the verge of breaking big when Wood died of a heroin overdose in 1990. Mercury Records wanted Gossard and Ament (with Bruce Fairweather on guitar and drummer Greg Gilmore) to record with a new singer, but the band declined.
+										Afterward, Gossard and Ament, along with Seattle veteran Mike McCready, started work on a demo tape in late 1990. They asked former Red Hot Chili Peppers drummer Jack Irons to join, giving him a copy of the tape. Irons was involved with his own band, Eleven, but passed the demo on to a singer he knew in San Diego, Eddie Vedder, who immediately wrote lyrics to the songs and mailed back a tape that included his vocals; he was invited up to Seattle and the rest was history.
+
+
+									</p>
+									</div>
+									<div class="PJ-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Concurrently, Gossard, Ament, and McCready, along with Soundgarden's Chris Cornell and Matt Cameron, recorded Temple of the Dog (Number Five, 1992), a memorial to Wood, in 1990, with Vedder trading verses with Cornell on the rock radio smash "Hunger Strike."
+										With the addition of Vedder and drummer Dave Krusen, the new band was complete. They called themselves Mookie Blaylock, in honor of the basketball player, but changed the name to Pearl Jam, purportedly after a psychedelic confection made by Vedder's half-Native American great-grandmother, Pearl. (Vedder finally admitted the story was bogus in 2006.)
+										The band did not forget Blaylock: Their debut album, Ten [Number Two, 1992], was named for his uniform number. On the strength of its Mother Love Bone connections and a growing national interest in the Seattle scene, Pearl Jam was signed by Epic Records in early 1991. Krusen left the band after the sessions for Ten; he was replaced by Matt Chamberlain on tour, with Dave Abbruzzese filling the drum chair in the fall of 1991.
+										The band toured extensively, headlining small halls and opening for the Red Hot Chili Peppers, Neil Young and U2. They headlined the 1992 Lollapalooza Tour and opened for Keith Richards on New Year's Eve 1992. Vedder, Gossard and Ament took time out to play Matt Dillon's backing band, Citizen Dick, in the 1992 Seattle-based movie Singles. By the end of 1992, Pearl Jam was among the biggest bands in the world. Vedder's intense, clenched-teeth delivery gave life to his personal travails ("Alive," "Black"), while songs like "Jeremy" and "Why Go" were easy rallying cries for teenagers seeking music they could call their own.
+
+
+									</p>
+									</div>
+
+									<div class="PJ-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Although Pearl Jam was originally marketed as an "alternative" band, their connection to classic rock of the Sixties and Seventies soon became apparent. Vedder filled in for Jim Morrison at the Doors reunion for the 1993 Rock and Roll Hall of Fame induction ceremonies; he also took part in concerts honoring Bob Dylan and Pete Townshend around this time. The band also backed Neil Young on "Rockin' in the Free World" at the 1993 MTV Video Music Awards and developed an enduring father-son relationship with him.
+
+
+
+									</p>
+									</div>
+
+
+
+					
+
+	<!-- larger flickity -->
+	  			<div class="gallery js-flickity visible-lg visible-md col-lg-12 col-md-12">
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/qQXP6TDtW0w" frameborder="0" allowfullscreen></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/w6XCNCzsr7U" frameborder="0" allowfullscreen></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/VY15Gh8Om20" frameborder="0" allowfullscreen></iframe>
+						</div>											
+				</div>
+			
+		
+
+						<!-- notable albums -->
+						<!-- images from http://pearljam.com/music/albums/997/studio/18642/pearl_jam -->
+
+						<div class="PJ-gallery">
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs PJ-Albums">
+								<img class="img-responsive" src="assets/img/ten.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs PJ-Albums">
+								<img class="img-responsive" src="assets/img/vs.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs PJ-Albums">
+								<img class="img-responsive" src="assets/img/yield.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs PJ-Albums">
+								<img class="img-responsive" src="assets/img/pearljam.jpg" />
+							</div>
+
+						</div>
+						</div>	
+					</div>
+				<!-- </div> -->
+	<!-- </section>
+ -->
+
+ 	<!-- RHCP Large -->
+
+ 	<!-- larger SP -->
+
+				<div class="container row-center" id="RHCPlg">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+								<!-- interactive BG -->
+								<div class="container-center">
+
+						<!-- http://pagesay.com/perfect-the-best-of-smashing-pumpkins/ -->
+										<div class="bg demo1 visible-lg visible-md col-lg-12 col-md-12" data-ibg-bg="assets/img/RHCPlgBG.jpg" style="height:600px; width: 100%; overflow: hidden; margin-top: 50px; margin-bottom: 50px;">
+										</div>
+								</div>
+
+
+	<!-- this -->
+
+	<h3 class="hidden-xs hidden-sm">Red Hot Chili Peppers</h3>
+
+
+
+	<!-- player for larger  -->
+					<div class="container visible-lg visible-md col-lg-12 col-md-12" height="100%">
+									<!-- [jPlayer](http://jplayer.org/) : HTML5 Audio & Video for [jQuery](http://jquery.com/) -->
+							<div id="jquery_jplayer_rhcplg" class="jp-jplayer"></div>
+								<div id="jquery_jplayer_rhcplg" class="jp-jplayer"></div>
+								<div id="jp_container_rhcplg" class="jp-audio" role="application" aria-label="media player">
+									<div class="jp-type-playlist">
+										
+										<div class="jp-playlist">
+											<ul>
+												<li>&nbsp;</li>
+											</ul>
+										</div>
+										<div class="jp-no-solution">
+											<span>Update Required</span>
+											To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+
+	<!-- larger -->
+
+	<!--  http://www.rollingstone.com/music/artists/smashing-pumpkins/biography#ixzz3Up6WJidq  -->
+									<div class="RHCP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Formed in the wake of the L.A. punk scene, the Red Hot Chili Peppers combined funk and punk with macho, sexed-up lyrics. (One early track was called "Party on Your Pussy"). The result was a high-octane sound that made the quintet alt-rock favorites in the Eighties, then superstars in the Nineties. But as the Chili Peppers aged, their songs became more laid-back and lyrical, and the band went from flesh-baring firecrackers (a 1992 Rolling Stone cover featured them naked) to respected veterans.
+										After meeting at L.A.'s Fairfax High School, singer Anthony Kiedis, bassist Flea, guitarist Hillel Slovak, and drummer Jack Irons formed Tony Flow and the Miraculously Majestic Masters of Mayhem before changing their name to the Red Hot Chili Peppers. They became a popular attraction up and down the L.A. strip, though the early lineup was short-lived as Irons and the Israeli-born Slovak departed to form What Is This? Kiedis and Flea recruited guitarist Jack Sherman and drummer Cliff Martinez prior to releasing their eponymous debut in 1984. The album stiffed; Slovak returned, and the band took to the road, sometimes appearing onstage wearing only strategically placed tube socks.
+										The funk-heavy Freaky Styley (1985), the last album featuring Martinez on drums, was produced by P-Funk's George Clinton and featured appearances by funk horn players Maceo Parker and Fred Wesley. The record went largely unnoticed at the time. Irons returned to the band in time for the more rock-oriented The Uplift Mofo Party Plan (Number 148, 1987), which sold better than its predecessor. Any optimism was shattered by the 1988 death of Slovak from a heroin overdose. Disturbed by Slovak's death and Kiedis' own heroin problem, Irons quit the band a second time. An interim band with P-Funk guitarist Blackbyrd McKnight and Dead Kennedys drummer D.H. Peligro did not take hold. Kiedis recruited a Chili Peppers fan, guitarist John Frusciante and auditions brought drummer Chad Smith. This version of the band recorded Mother's Milk (Number 52, 1989). With videos for "Knock Me Down" and a cover of Stevie Wonder's "Higher Ground" on MTV, it looked like the Peppers were about to break through.
+
+
+									</p>
+									</div>
+									<div class="RHCP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										The band's lifestyle came under some attack, though, with Kiedis convicted in 1989 of indecent exposure and sexual battery in an incident following a concert in Virginia. The next year during a taping of an MTV Spring Break special in Florida, Flea and Smith jumped offstage, with Flea grabbing a woman and carrying her on his shoulders, and Smith spanking her. The two were charged, and Flea was found guilty of battery, disorderly conduct, and solicitation to commit an unnatural and lascivious act. Smith was found guilty of battery.
+										The Chili Peppers scored their first major hit in 1991 with BloodSugarSexMagik (Number 3), which featured the single "Under the Bridge" (Number Two) and "Give It Away" (Number 73). Produced by Rick Rubin, the record was written and recorded in a mansion the band claimed was haunted. It sold more than 4 million copies, leading to their headlining Lollapalooza in 1992. Just prior to the tour, John Frusciante left the band and was replaced by Arik Marshall. Marshall lasted only a year and, after many auditions and one false start with Jesse Tobias, was replaced by former Jane's Addiction guitarist Dave Navarro. The 1995 release One Hot Minute (Number Four) went platinum but failed to generate the unparalleled excitement of BloodSugarSexMagik, precipitating a fallow phase in the band's career. Flea joined Navarro for a 1997 reunion tour of Jane's Addiction, and Navarro and Kiedis slipped back into old drug habits. Navarro quit the group in 1998 to pursue solo ambitions, casting the future of the band in doubt.
+									</p>
+									</div>
+
+									<div class="RHCP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Instead of breaking up, however, the Chili Peppers invited Frusciante to return, the guitarist having recovered from a severe drug addiction. The subsequent album, Californication (Number Three, 1999), was a commercial and critical triumph. The Chili Peppers were back on top with hit singles "Scar Tissue" (Number Nine) and "Otherside" (Number 14) and a major tour that included a fateful show at Woodstock '99, where the group had the dubious distinction of performing as a fiery melee erupted.
+										By The Way (Number Two) was released in 2002 and found Frusciante digging into the complexities of multi-tonal, layered guitar tracking. In 2006, the ambitious double album Stadium Arcadium (Number One) was the first Chili Peppers' record to top the charts and earned the band Grammys for Best Rock Album, Best Rock Song ("Dani California," Number Six), Best Rock Performance By a Duo Or Group With Vocal and Best Producer (Rick Rubin).
+										But for the occasional live appearance, the Chili Peppers spent the next two years on hiatus as Frusciante with the occasional help from Flea and Smith embarked on solo careers. Frusciante announced in late 2009 that he was leaving the band a second time to focus on other projects. The Chili Peppers' follow-up to Stadium Arcadium is set for release in late 2010.
+
+									</p>
+									</div>
+
+
+
+					
+
+	<!-- larger flickity -->
+	  			<div class="gallery js-flickity visible-lg visible-md col-lg-12 col-md-12">
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/rGkjDkw2pOo" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/gmKCjYeVIOY" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/xRfFaCqbRGk" frameborder="0" allowfullscreen></iframe>
+						</div>											
+				</div>
+			
+				
+
+						<!-- notable albums -->
+						<!-- images from http://www.stereogum.com/1541432/smashing-pumpkins-albums-from-worst-to-best/franchises/counting-down/ -->
+						<div class="RHCP-gallery">
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/bloodsugar.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/californication.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/bytheway.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SP-Albums">
+								<img class="img-responsive" src="assets/img/stadium.jpg" />
+							</div>
+
+						</div>
+						</div>	
+					</div>
+				<!-- </div> -->
+
+
+
+		<!-- SNP Large -->
+
+ 	<!-- larger SnP -->
+
+				<div class="container row-center" id="SNPlg">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+								<!-- interactive BG -->
+								<div class="container-center">
+
+						<!-- http://images3.mtv.com/uri/mgid:file:docroot:mtv.com:/shared/promoimages/buzzworthy_blog/flipbook/girl_groups/74000215.jpg?enlarge=false&matte=true&matteColor=black&quality=0.85 -->
+										<div class="bg demo1 visible-lg visible-md col-lg-12 col-md-12" data-ibg-bg="assets/img/SNPlgBG.jpg" style="height:600px; width: 100%; overflow: hidden; margin-top: 50px; margin-bottom: 50px;">
+										</div>
+								</div>
+
+
+	<!-- this -->
+
+	<h3 class="hidden-xs hidden-sm">Salt 'n' Pepa</h3>
+
+
+
+	<!-- player for larger  -->
+					<div class="container visible-lg visible-md col-lg-12 col-md-12" height="100%">
+									<!-- [jPlayer](http://jplayer.org/) : HTML5 Audio & Video for [jQuery](http://jquery.com/) -->
+							<div id="jquery_jplayer_snplg" class="jp-jplayer"></div>
+								<div id="jquery_jplayer_snplg" class="jp-jplayer"></div>
+								<div id="jp_container_snplg" class="jp-audio" role="application" aria-label="media player">
+									<div class="jp-type-playlist">
+										
+										<div class="jp-playlist">
+											<ul>
+												<li>&nbsp;</li>
+											</ul>
+										</div>
+										<div class="jp-no-solution">
+											<span>Update Required</span>
+											To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+
+	<!-- larger -->
+
+	<!--  http://www.rollingstone.com/music/artists/smashing-pumpkins/biography#ixzz3Up6WJidq  -->
+									<div class="SNP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										By the late '80s, hip-hop was on its way to becoming a male-dominated art form, which is what made the emergence of Salt-n-Pepa so significant. As the first all-female rap crew (even their DJs were women) of importance, the group broke down a number of doors for women in hip-hop. They were also one of the first rap artists to cross over into the pop mainstream, laying the groundwork for the music's widespread acceptance in the early '90s. Salt-n-Pepa were more pop-oriented than many of their contemporaries, since their songs were primarily party and love anthems, driven by big beats and interlaced with vaguely pro-feminist lyrics that seemed more powerful when delivered by the charismatic and sexy trio. While songs like "Push It" and "Shake Your Thang" made the group appear to be a one-hit pop group during the late '80s, Salt-n-Pepa defied expectations and became one of the few hip-hop artists to develop a long-term career. Along with LL Cool J, the trio had major hits in both the '80s and '90s, and, if anything, they hit the height of their popularity in 1994, when "Shoop" and "Whatta Man" drove their third album, Very Necessary, into the Top Ten. 
+
+									</p>
+									</div>
+									<div class="SNP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										Cheryl "Salt" James and Sandy "Pepa" Denton were working at a Sears store in Queens, New York, when their co-worker, and Salt's boyfriend, Hurby "Luv Bug" Azor asked the duo to rap on a song he was producing for his audio production class at New York City's Center for Media Arts. The trio wrote an answer to Doug E. Fresh and Slick Rick's "The Show," entitling it "The Show Stopper." The song was released as a single under the name Super Nature in the summer of 1985, and it became an underground hit, peaking at number 46 on the national R&B charts. Based on its success, the duo, who were now named Salt-n-Pepa after a line in "The Show Stopper," signed with the national indie label Next Plateau. Azor, who had become their manager, produced their 1986 debut Hot, Cool & Vicious, which also featured DJ Pamela Green. He also took songwriting credit for the album, despite the duo's claims that they wrote many of its lyrics. 
+										Three singles from Hot, Cool & Vicious "My Mike Sounds Nice," "Tramp," "Chick on the Side" became moderate hits in 1987 before Cameron Paul, a DJ at a San Francisco radio station, remixed "Push It," the B-side of "Tramp," and it became a local hit. "Push It" was soon released nationally and it became a massive hit, climbing to number 19 on the pop charts; the single became one of the first rap records to be nominated for a Grammy. Salt-n-Pepa jettisoned Greene and added rapper and DJ Spinderella (born Deidre "Dee Dee" Roper) before recording their second album, A Salt With a Deadly Pepa. Though the album featured the Top Ten R&B hit "Shake Your Thang," which was recorded with the go-go band E.U., it received mixed reviews and was only a minor hit. 
+									</p>
+									</div>
+
+									<div class="SNP-bio visible-lg visible-md col-lg-12 col-md-12">
+									<p class="Bio1">
+										The remix album A Blitz of Salt-n-Pepa Hits was released in 1989 as the group prepared their third album, Blacks' Magic. Upon its spring release, Blacks' Magic was greeted with strong reviews and sales. The album was embraced strongly by the hip-hop community, whose more strident members accused the band of trying too hard to crossover to the pop market. "Expression" spent eight weeks at the top of the rap charts and went gold before it was even cracked the pop charts, where it would later peak at 26. Another single from the album, "Let's Talk About Sex," became their biggest pop hit to date, climbing to number 13. They later re-recorded the song as a safe-sex rap, "Let's Talk About AIDS." 
+										Before they recorded their fourth album, Salt-n-Pepa separated from Azor, who had already stopped seeing Salt several years ago. Signing with London/Polygram, the group released Very Necessary in 1993. The album was catchy and sexy without being a sellout, and the group's new, sophisticated sound quickly became a monster hit. "Shoop" reached number four on the pop charts, which led the album to the same position as well. "Whatta Man," a duet with the vocal group En Vogue, reached number three on both the pop and R&B charts in 1994. A final single from the album, "None of Your Business," was a lesser hit, but it won the Grammy for Best Rap Performance in 1995. Since the release of Very Necessary, Salt-n-Pepa have been quiet, spending some time on beginning acting careers. Both had already appeared in the 1993 comedy Who's the Man? ~ Stephen Thomas Erlewine, Rovi
+
+									</p>
+									</div>
+
+
+
+					
+
+	<!-- larger flickity -->
+	  			<div class="gallery js-flickity visible-lg visible-md col-lg-12 col-md-12">
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/cMBh8P1m9Wo" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/cMBh8P1m9Wo" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="853" height="480" src="https://www.youtube.com/embed/b9iDl1KIOTQ" frameborder="0" allowfullscreen></iframe>
+						</div>											
+				</div>
+			
+				
+
+						<!-- notable albums -->
+						<!-- http://www.mtv.com/artists/salt-n-pepa/ -->
+						<div class="SNP-gallery">
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SNP-Albums">
+								<img class="img-responsive" src="assets/img/brand-new.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SNP-Albums">
+								<img class="img-responsive" src="assets/img/hot-cool.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SNP-Albums">
+								<img class="img-responsive" src="assets/img/blackMagic.jpg" />
+							</div>
+
+							<div class="col-lg-3 col-md-3 hidden-sm hidden-xs SNP-Albums">
+								<img class="img-responsive" src="assets/img/very-necessary.jpg" />
+							</div>
+
+						</div>
+						</div>	
+					</div>
+				<!-- </div> -->
+
+	
+
+
+	<!-- pearl jam small artwork-->		
+				
+				<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+					<img src="assets/img/BeforePJ.png" width="auto" height="400px" id="info-PJsm" class="PJ-swap" />
+					</div>
+
+	<!-- smaller Section PJ-->
+
+	<div class="container row-center" id="PJsm">
+		<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+
+
+						<!-- http://cdn.inquisitr.com/wp-content/uploads/2014/06/00120002.jpg -->
+		
+										<div class="bg demo1 hidden-lg hidden-md  col-sm-12 col-xs-12" data-ibg-bg="assets/img/PJsmBG.jpg" style="height:500px; width: 100%; overflow: hidden;">
+
+										</div>
+								
+									<h3>Pearl Jam</h3>
+
+	<!-- player for smaller -->
+						<div class="container row-center hidden-lg hidden-md  col-sm-12 col-xs-12">
+
+										<!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+							<div id="jquery_jplayer_pjsm" class="cp-jplayer"></div>
+
+							<!-- The container for the interface can go where you want to display it. Show and hide it as you need. -->
+
+							<div id="cp_container_pjsm" class="cp-container">
+								<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+									<div class="cp-buffer-1"></div>
+									<div class="cp-buffer-2"></div>
+								</div>
+								<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+									<div class="cp-progress-1"></div>
+									<div class="cp-progress-2"></div>
+								</div>
+								<div class="cp-circle-control"></div>
+								<ul class="cp-controls">
+									<li><a class="cp-play" tabindex="1">play</a></li>
+									<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+								</ul>
+							</div>
+							
+
+							</div>	
+
+	<!-- smaller -->
+
+									<div class="PJ-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Along with Nirvana, Pearl Jam were initially known for popularizing grunge, the Seattle sound that exploded nationwide in the early Nineties. But the band became an American rock institution by broadening their heavy, Led Zeppelin-influenced sound while maintaining the emotional depth that made their songs so resonant in the first place. Leaping from obscurity to superstardom, the band sold more than 15 million copies of its first two albums, and after a couple of years during which they got mired in high-profile controversies, Pearl Jam recovered and were still filling arenas at the close of the 2000s.
+										Pearl Jam's roots in the Seattle scene go deep: In the mid-Eighties, Jeff Ament and Stone Gossard were members of the seminal Seattle band Green River, which split in 1987. Half the band formed Mudhoney, while Gossard and Ament joined singer Andrew Wood in Mother Love Bone. One of the earliest Seattle bands to sign with a major label, Mother Love Bone seemed on the verge of breaking big when Wood died of a heroin overdose in 1990. Mercury Records wanted Gossard and Ament (with Bruce Fairweather on guitar and drummer Greg Gilmore) to record with a new singer, but the band declined.
+										Afterward, Gossard and Ament, along with Seattle veteran Mike McCready, started work on a demo tape in late 1990. They asked former Red Hot Chili Peppers drummer Jack Irons to join, giving him a copy of the tape. Irons was involved with his own band, Eleven, but passed the demo on to a singer he knew in San Diego, Eddie Vedder, who immediately wrote lyrics to the songs and mailed back a tape that included his vocals; he was invited up to Seattle and the rest was history.
+
+									</p>
+									</div>
+									<div class="PJ-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Concurrently, Gossard, Ament, and McCready, along with Soundgarden's Chris Cornell and Matt Cameron, recorded Temple of the Dog (Number Five, 1992), a memorial to Wood, in 1990, with Vedder trading verses with Cornell on the rock radio smash "Hunger Strike."
+										With the addition of Vedder and drummer Dave Krusen, the new band was complete. They called themselves Mookie Blaylock, in honor of the basketball player, but changed the name to Pearl Jam, purportedly after a psychedelic confection made by Vedder's half-Native American great-grandmother, Pearl. (Vedder finally admitted the story was bogus in 2006.)
+										The band did not forget Blaylock: Their debut album, Ten [Number Two, 1992], was named for his uniform number. On the strength of its Mother Love Bone connections and a growing national interest in the Seattle scene, Pearl Jam was signed by Epic Records in early 1991. Krusen left the band after the sessions for Ten; he was replaced by Matt Chamberlain on tour, with Dave Abbruzzese filling the drum chair in the fall of 1991.
+										The band toured extensively, headlining small halls and opening for the Red Hot Chili Peppers, Neil Young and U2. They headlined the 1992 Lollapalooza Tour and opened for Keith Richards on New Year's Eve 1992. Vedder, Gossard and Ament took time out to play Matt Dillon's backing band, Citizen Dick, in the 1992 Seattle-based movie Singles. By the end of 1992, Pearl Jam was among the biggest bands in the world. Vedder's intense, clenched-teeth delivery gave life to his personal travails ("Alive," "Black"), while songs like "Jeremy" and "Why Go" were easy rallying cries for teenagers seeking music they could call their own.
+
+									</p>
+									</div>
+
+									<div class="PJ-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Although Pearl Jam was originally marketed as an "alternative" band, their connection to classic rock of the Sixties and Seventies soon became apparent. Vedder filled in for Jim Morrison at the Doors reunion for the 1993 Rock and Roll Hall of Fame induction ceremonies; he also took part in concerts honoring Bob Dylan and Pete Townshend around this time. The band also backed Neil Young on "Rockin' in the Free World" at the 1993 MTV Video Music Awards and developed an enduring father-son relationship with him.
+
+									</p>
+									</div>
+
+									<!-- smaller flickity -->
+
+					<div class="gallery js-flickity hidden-lg hidden-md  col-sm-12 col-xs-12">
+							
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/qQXP6TDtW0w" frameborder="0" allowfullscreen ></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/w6XCNCzsr7U" frameborder="0" allowfullscreen></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/VY15Gh8Om20" frameborder="0" allowfullscreen></iframe>
+						</div>		
+
+
+				</div>
+
+
+	<!-- notable albums -->
+						<!-- images from http://pearljam.com/music/albums/997/studio/18642/pearl_jam -->
+
+						<div class="PJ-gallery">
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md PJ-Albums">
+								<img class="img-responsive" src="assets/img/ten.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md PJ-Albums">
+								<img class="img-responsive" src="assets/img/vs.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md PJ-Albums">
+								<img class="img-responsive" src="assets/img/yield.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md PJ-Albums">
+								<img class="img-responsive" src="assets/img/pearljam.jpg" />
+							</div>
+
+						</div>
+						</div>	
+					</div>
+
+	
+
+	<!-- finish PJ Small -->
+
+
+	<!-- Red Hot Chili Peppers small artwork-->		
+				
+				<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+					<img src="assets/img/BeforeRHCP.png" width="auto" height="400px" id="info-RHCPsm" class="RHCP-swap" />
+					</div>
+
+	<!-- smaller Section RHCP-->
+
+	<div class="container row-center" id="RHCPsm">
+		<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+
+
+						<!--LARGER http://images.alphacoders.com/243/243923.jpg -->
+
+
+						<!-- http://images4.fanpop.com/image/photos/20700000/rhcp-red-hot-chili-peppers-20776710-752-755.jpg -->
+		
+										<div class="bg demo1 hidden-lg hidden-md  col-sm-12 col-xs-12" data-ibg-bg="assets/img/RHCPsmBG.jpg" style="height:500px; width: 100%; overflow: hidden;">
+
+										</div>
+								
+									<h3>Red Hot Chili Peppers</h3>
+
+	<!-- player for smaller -->
+						<div class="container row-center hidden-lg hidden-md  col-sm-12 col-xs-12">
+
+										<!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+							<div id="jquery_jplayer_rhcpsm" class="cp-jplayer"></div>
+
+							<!-- The container for the interface can go where you want to display it. Show and hide it as you need. -->
+
+							<div id="cp_container_rhcpsm" class="cp_container_rhcpsm">
+								<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+									<div class="cp-buffer-1"></div>
+									<div class="cp-buffer-2"></div>
+								</div>
+								<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+									<div class="cp-progress-1"></div>
+									<div class="cp-progress-2"></div>
+								</div>
+								<div class="cp-circle-control"></div>
+								<ul class="cp-controls">
+									<li><a class="cp-play" tabindex="1">play</a></li>
+									<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+								</ul>
+							</div>
+							
+
+							</div>	
+
+	<!-- smaller -->
+
+	<!-- http://www.rollingstone.com/music/artists/red-hot-chili-peppers/biography#ixzz3Uq0XY4SS  -->
+
+									<div class="RHCP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Formed in the wake of the L.A. punk scene, the Red Hot Chili Peppers combined funk and punk with macho, sexed-up lyrics. (One early track was called "Party on Your Pussy"). The result was a high-octane sound that made the quintet alt-rock favorites in the Eighties, then superstars in the Nineties. But as the Chili Peppers aged, their songs became more laid-back and lyrical, and the band went from flesh-baring firecrackers (a 1992 Rolling Stone cover featured them naked) to respected veterans.
+										After meeting at L.A.'s Fairfax High School, singer Anthony Kiedis, bassist Flea, guitarist Hillel Slovak, and drummer Jack Irons formed Tony Flow and the Miraculously Majestic Masters of Mayhem before changing their name to the Red Hot Chili Peppers. They became a popular attraction up and down the L.A. strip, though the early lineup was short-lived as Irons and the Israeli-born Slovak departed to form What Is This? Kiedis and Flea recruited guitarist Jack Sherman and drummer Cliff Martinez prior to releasing their eponymous debut in 1984. The album stiffed; Slovak returned, and the band took to the road, sometimes appearing onstage wearing only strategically placed tube socks.
+										The funk-heavy Freaky Styley (1985), the last album featuring Martinez on drums, was produced by P-Funk's George Clinton and featured appearances by funk horn players Maceo Parker and Fred Wesley. The record went largely unnoticed at the time. Irons returned to the band in time for the more rock-oriented The Uplift Mofo Party Plan (Number 148, 1987), which sold better than its predecessor. Any optimism was shattered by the 1988 death of Slovak from a heroin overdose. Disturbed by Slovak's death and Kiedis' own heroin problem, Irons quit the band a second time. An interim band with P-Funk guitarist Blackbyrd McKnight and Dead Kennedys drummer D.H. Peligro did not take hold. Kiedis recruited a Chili Peppers fan, guitarist John Frusciante and auditions brought drummer Chad Smith. This version of the band recorded Mother's Milk (Number 52, 1989). With videos for "Knock Me Down" and a cover of Stevie Wonder's "Higher Ground" on MTV, it looked like the Peppers were about to break through.
+
+
+
+									</p>
+									</div>
+									<div class="RHCP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										The band's lifestyle came under some attack, though, with Kiedis convicted in 1989 of indecent exposure and sexual battery in an incident following a concert in Virginia. The next year during a taping of an MTV Spring Break special in Florida, Flea and Smith jumped offstage, with Flea grabbing a woman and carrying her on his shoulders, and Smith spanking her. The two were charged, and Flea was found guilty of battery, disorderly conduct, and solicitation to commit an unnatural and lascivious act. Smith was found guilty of battery.
+										The Chili Peppers scored their first major hit in 1991 with BloodSugarSexMagik (Number 3), which featured the single "Under the Bridge" (Number Two) and "Give It Away" (Number 73). Produced by Rick Rubin, the record was written and recorded in a mansion the band claimed was haunted. It sold more than 4 million copies, leading to their headlining Lollapalooza in 1992. Just prior to the tour, John Frusciante left the band and was replaced by Arik Marshall. Marshall lasted only a year and, after many auditions and one false start with Jesse Tobias, was replaced by former Jane's Addiction guitarist Dave Navarro. The 1995 release One Hot Minute (Number Four) went platinum but failed to generate the unparalleled excitement of BloodSugarSexMagik, precipitating a fallow phase in the band's career. Flea joined Navarro for a 1997 reunion tour of Jane's Addiction, and Navarro and Kiedis slipped back into old drug habits. Navarro quit the group in 1998 to pursue solo ambitions, casting the future of the band in doubt.
+
+
+
+									</p>
+									</div>
+
+									<div class="RHCP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Instead of breaking up, however, the Chili Peppers invited Frusciante to return, the guitarist having recovered from a severe drug addiction. The subsequent album, Californication (Number Three, 1999), was a commercial and critical triumph. The Chili Peppers were back on top with hit singles "Scar Tissue" (Number Nine) and "Otherside" (Number 14) and a major tour that included a fateful show at Woodstock '99, where the group had the dubious distinction of performing as a fiery melee erupted.
+										By The Way (Number Two) was released in 2002 and found Frusciante digging into the complexities of multi-tonal, layered guitar tracking. In 2006, the ambitious double album Stadium Arcadium (Number One) was the first Chili Peppers' record to top the charts and earned the band Grammys for Best Rock Album, Best Rock Song ("Dani California," Number Six), Best Rock Performance By a Duo Or Group With Vocal and Best Producer (Rick Rubin).
+										But for the occasional live appearance, the Chili Peppers spent the next two years on hiatus as Frusciante with the occasional help from Flea and Smith embarked on solo careers. Frusciante announced in late 2009 that he was leaving the band a second time to focus on other projects. The Chili Peppers' follow-up to Stadium Arcadium is set for release in late 2010.
+
+
+									</p>
+									</div>
+
+									<!-- smaller flickity -->
+
+					<div class="gallery js-flickity hidden-lg hidden-md  col-sm-12 col-xs-12">
+							
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/rGkjDkw2pOo" frameborder="0" allowfullscreen ></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/gmKCjYeVIOY" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/xRfFaCqbRGk" frameborder="0" allowfullscreen></iframe>
+						</div>											
+				</div>
+			
+
+	<!-- notable albums -->
+						<!-- images from http://consequenceofsound.net/2014/08/ranking-red-hot-chili-peppers-from-worst-to-best/11/ -->
+
+						<div class="RHCP-gallery">
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md RHCP-Albums">
+								<img class="img-responsive" src="assets/img/bloodsugar.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md RHCP-Albums">
+								<img class="img-responsive" src="assets/img/californication.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md RHCP-Albums">
+								<img class="img-responsive" src="assets/img/bytheway.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md RHCP-Albums">
+								<img class="img-responsive" src="assets/img/stadium.jpg" />
+							</div>
+
+						</div>
+			</div>	
+	</div>
+
+	
+
+	<!-- finish RHCP Small -->
+
+
+
+
+
+	
+		<!-- Salt 'n' Pepa small artwork-->		
+				
+				<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+					<img src="assets/img/BeforeSNP.png" width="auto" height="400px" id="info-SNPsm" class="SNP-swap" />
+					</div>
+
+	<!-- smaller Section SNP-->
+
+	<div class="container row-center" id="SNPsm">
+		<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+
+
+
+						<!-- https://ionetvone.files.wordpress.com/2014/07/spinderella_getty_1988_3.jpg -->
+		
+										<div class="bg demo1 hidden-lg hidden-md  col-sm-12 col-xs-12" data-ibg-bg="assets/img/SNPsmBG.jpg" style="height:500px; width: 100%; overflow: hidden;">
+
+										</div>
+								
+									<h3>Salt 'n' Pepa</h3>
+
+	<!-- player for smaller -->
+						<div class="container row-center hidden-lg hidden-md  col-sm-12 col-xs-12">
+
+										<!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+							<div id="jquery_jplayer_snpsm" class="cp-jplayer"></div>
+
+							<!-- The container for the interface can go where you want to display it. Show and hide it as you need. -->
+
+							<div id="cp_container_snpsm" class="cp-container">
+								<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+									<div class="cp-buffer-1"></div>
+									<div class="cp-buffer-2"></div>
+								</div>
+								<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+									<div class="cp-progress-1"></div>
+									<div class="cp-progress-2"></div>
+								</div>
+								<div class="cp-circle-control"></div>
+								<ul class="cp-controls">
+									<li><a class="cp-play" tabindex="1">play</a></li>
+									<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+								</ul>
+							</div>
+							
+
+							</div>	
+
+	<!-- smaller -->
+
+	<!--  http://www.mtv.com/artists/salt-n-pepa/ -->
+
+									<div class="SNP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										By the late '80s, hip-hop was on its way to becoming a male-dominated art form, which is what made the emergence of Salt-n-Pepa so significant. As the first all-female rap crew (even their DJs were women) of importance, the group broke down a number of doors for women in hip-hop. They were also one of the first rap artists to cross over into the pop mainstream, laying the groundwork for the music's widespread acceptance in the early '90s. Salt-n-Pepa were more pop-oriented than many of their contemporaries, since their songs were primarily party and love anthems, driven by big beats and interlaced with vaguely pro-feminist lyrics that seemed more powerful when delivered by the charismatic and sexy trio. While songs like "Push It" and "Shake Your Thang" made the group appear to be a one-hit pop group during the late '80s, Salt-n-Pepa defied expectations and became one of the few hip-hop artists to develop a long-term career. Along with LL Cool J, the trio had major hits in both the '80s and '90s, and, if anything, they hit the height of their popularity in 1994, when "Shoop" and "Whatta Man" drove their third album, Very Necessary, into the Top Ten.
+
+
+
+									</p>
+									</div>
+									<div class="SNP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										Cheryl "Salt" James and Sandy "Pepa" Denton were working at a Sears store in Queens, New York, when their co-worker, and Salt's boyfriend, Hurby "Luv Bug" Azor asked the duo to rap on a song he was producing for his audio production class at New York City's Center for Media Arts. The trio wrote an answer to Doug E. Fresh and Slick Rick's "The Show," entitling it "The Show Stopper." The song was released as a single under the name Super Nature in the summer of 1985, and it became an underground hit, peaking at number 46 on the national R&B charts. Based on its success, the duo, who were now named Salt-n-Pepa after a line in "The Show Stopper," signed with the national indie label Next Plateau. Azor, who had become their manager, produced their 1986 debut Hot, Cool & Vicious, which also featured DJ Pamela Green. He also took songwriting credit for the album, despite the duo's claims that they wrote many of its lyrics. 
+										Three singles from Hot, Cool & Vicious "My Mike Sounds Nice," "Tramp," "Chick on the Side" became moderate hits in 1987 before Cameron Paul, a DJ at a San Francisco radio station, remixed "Push It," the B-side of "Tramp," and it became a local hit. "Push It" was soon released nationally and it became a massive hit, climbing to number 19 on the pop charts; the single became one of the first rap records to be nominated for a Grammy. Salt-n-Pepa jettisoned Greene and added rapper and DJ Spinderella (born Deidre "Dee Dee" Roper) before recording their second album, A Salt With a Deadly Pepa. Though the album featured the Top Ten R&B hit "Shake Your Thang," which was recorded with the go-go band E.U., it received mixed reviews and was only a minor hit. 
+									</p>
+									</div>
+
+									<div class="SNP-bio hidden-lg hidden-md  col-sm-12 col-xs-12">
+									<p class="Bio2">
+										The remix album A Blitz of Salt-n-Pepa Hits was released in 1989 as the group prepared their third album, Blacks' Magic. Upon its spring release, Blacks' Magic was greeted with strong reviews and sales. The album was embraced strongly by the hip-hop community, whose more strident members accused the band of trying too hard to crossover to the pop market. "Expression" spent eight weeks at the top of the rap charts and went gold before it was even cracked the pop charts, where it would later peak at 26. Another single from the album, "Let's Talk About Sex," became their biggest pop hit to date, climbing to number 13. They later re-recorded the song as a safe-sex rap, "Let's Talk About AIDS." 
+										Before they recorded their fourth album, Salt-n-Pepa separated from Azor, who had already stopped seeing Salt several years ago. Signing with London/Polygram, the group released Very Necessary in 1993. The album was catchy and sexy without being a sellout, and the group's new, sophisticated sound quickly became a monster hit. "Shoop" reached number four on the pop charts, which led the album to the same position as well. "Whatta Man," a duet with the vocal group En Vogue, reached number three on both the pop and R&B charts in 1994. A final single from the album, "None of Your Business," was a lesser hit, but it won the Grammy for Best Rap Performance in 1995. Since the release of Very Necessary, Salt-n-Pepa have been quiet, spending some time on beginning acting careers. Both had already appeared in the 1993 comedy Who's the Man? ~ Stephen Thomas Erlewine, Rovi
+
+									</p>
+									</div>
+
+									<!-- smaller flickity -->
+
+					<div class="gallery js-flickity hidden-lg hidden-md  col-sm-12 col-xs-12">
+							
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/cMBh8P1m9Wo" frameborder="0" allowfullscreen ></iframe>
+						</div>	
+
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/cMBh8P1m9Wo" frameborder="0" allowfullscreen margin="100"></iframe>
+						</div>		
+						
+						<div class="gallery-cell img-responsive video-container"> 
+				  			<iframe width="auto" height="200" src="https://www.youtube.com/embed/b9iDl1KIOTQ" frameborder="0" allowfullscreen></iframe>
+						</div>											
+				</div>
+			
+
+	<!-- notable albums -->
+							<!-- http://www.mtv.com/artists/salt-n-pepa/ -->
+
+						<div class="SNP-gallery">
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md SNP-Albums">
+								<img class="img-responsive" src="assets/img/brand-new.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md SNP-Albums">
+								<img class="img-responsive" src="assets/img/hot-cool.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md SNP-Albums">
+								<img class="img-responsive" src="assets/img/blackMagic.jpg" />
+							</div>
+
+							<div class="col-sm-3 col-xs-3 hidden-lg hidden-md SNP-Albums">
+								<img class="img-responsive" src="assets/img/very-necessary.jpg" />
+							</div>
+
+						</div>
+						</div>	
+					</div>
+
+	</section>
+
+	<!-- finish SNP Small -->
+
+
+			<!-- 	<div class="container-center hidden-lg hidden-md col-sm-12 col-xs-12">
+				<img src="assets/img/BeforeSauce.png" width="auto" height="400px" id="sources" class="imgSauce" />
+				</div>
+
+	<div class="container row-center" id="sauce">
+
+	</div> -->
+
+
+	</body>
+</html>
